@@ -1,0 +1,5 @@
+a=set(map(str,input('Introduceți elementele mulțimii a: ').split(';')))
+b=set(map(str,input('Introduceți elementele mulțimii b: ').split(';')))
+print('caracterele care se întâlnesc cel puţin în unul dintre şiruri;', a.intersection(b))
+print('caracterele care apar în ambele şiruri', a.union(b))
+print('caracterele care apar în primul şi nu apar în şirul al doilea.', a.difference(b))
